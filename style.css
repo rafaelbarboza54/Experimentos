@@ -4,9 +4,6 @@
   grid-template-columns : 1fr;
 }
 
-.navbar {
-background-color: greenyellow;
-}
 .flex-container {
   display: grid;
   flex-wrap: wrap;
@@ -26,5 +23,8 @@ background-color: greenyellow;
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
-
+.flex-container {
+  position: left;
+  float: left;
+}
 }
