@@ -24,7 +24,7 @@
     grid-template-columns: 1fr 2fr;
   }
 .flex-container {
-  position: left;
-  float: left;
+  position: relative;
+  float: right;
 }
 }
