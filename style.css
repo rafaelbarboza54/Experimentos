@@ -22,9 +22,4 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
-
-.flex-container {
-  margin-top: 10px;
-  float: right;
-}
 }
