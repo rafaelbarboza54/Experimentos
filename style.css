@@ -22,26 +22,21 @@ body {
 
 @media only screen and (min-width: 992px) {
   .grid-container {
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 15tgbfr 2fr;
   }
 }
 
 .colText {
     background-color: #F5F5F5;
-    text-align: justify;
-    margin: 10px;
+    text-align: justify;   
 }
 
 @media only screen and (min-width: 600px) {
-    .colText{
-        margin: 50px;
-    }   
     .flex-container{
-        gap:1px;
+        row-gap: 10px;
     }
     
 }
-.one{
-  background-color: aliceblue;
+.one {
+float: left;
 }
-
