@@ -20,11 +20,9 @@
 @media only screen and (min-width: 992px) {
   .grid-container {
     display: grid;
-    grid-template-columns:
-     ".   flex-container" /
-       1fr  2fr;
+    grid-template-columns: 1fr 2fr;
   }
-  
+
 .flex-container {
   margin-top: 10px;
   float: right;
