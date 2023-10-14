@@ -1,13 +1,12 @@
 
 .grid-container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   align-items: center;
   grid-template-columns: 1fr;
 }
 
 .flex-container {
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
   gap: 10px;
   font-size: small;
@@ -15,13 +14,15 @@
   margin-right: 10px;
 }
 
-@media only screen and (min-width: 992px) {
-  .grid-container {
-    grid-template-columns: 1fr 2fr;
-  }
+.colText {
+  background-color: #F5F5F5;
+  text-align: justify;   
 }
 
-.colText {
-    background-color: #F5F5F5;
-    text-align: justify;   
+@media only screen and (min-width: 992px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
 }
