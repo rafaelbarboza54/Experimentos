@@ -12,14 +12,15 @@
   margin-right: 10px;
 }
 
-.col text {
+.text {
   background-color: #F5F5F5;
   text-align: justify;   
 }
 
 @media only screen and (min-width: 992px) {
   .grid-container {
-    display: grid;
     grid-template-columns: 1fr 2fr;
   }
 }
+
+    
