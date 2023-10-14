@@ -5,6 +5,9 @@
   grid-template-columns: 1fr;
 }
 
+.navbar {
+background-color: gainsboro;
+}
 .flex-container {
   display: grid;
   flex-wrap: wrap;
