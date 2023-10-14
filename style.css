@@ -1,8 +1,7 @@
 
 .grid-container {
   display: grid;
-  align-items: center;
-  grid-template-columns: 1fr;
+  grid-template-columns : 1fr;
 }
 
 .navbar {
