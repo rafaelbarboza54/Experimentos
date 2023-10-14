@@ -30,13 +30,9 @@ body {
     background-color: #F5F5F5;
     text-align: justify;   
 }
-
-@media only screen and (min-width: 600px) {
-    .flex-container{
-        row-gap: 10px;
-    }
-    
-}
-.one {
+.primeraColumna {
 float: left;
+}
+.d-flex {
+
 }
