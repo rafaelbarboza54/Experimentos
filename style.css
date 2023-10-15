@@ -1,6 +1,6 @@
 .flex-container {
   gap: 10px;
-  font-size: small;
+  font-size: 11px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -23,9 +23,11 @@
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-rows: 150px 100px 100px 100px;
   }
   .header {
+    font-size: 12px;
+    align-items: center;
     background-color: aqua;
     grid-column-start: 1;
     grid-column-end: 4;
@@ -36,6 +38,8 @@
     grid-row-end: 4;
   }
   .main{
+    gap: 10px;
+
     background-color: blueviolet;
     grid-column-start: 2;
     grid-column-end: 4;
