@@ -1,0 +1,35 @@
+.grid-container {
+  display: grid;
+  grid-template-columns : 1fr;
+}
+
+.flex-container {
+  display: grid;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: small;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.colText {
+  background-color: rgb(240, 238, 238);
+  text-align: justify;   
+}
+
+@media only screen and (min-width: 992px) {
+  .grid-container {
+    grid-template-columns: 1fr 2fr;
+    display: flex;
+    flex-direction: column;
+    margin: 4rem;
+  }
+  .flex-container{
+    position: relative;
+    left: 300px;
+    align-items: rigth;
+    flex-wrap: wrap;
+  }
+}
+
+    
