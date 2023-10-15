@@ -1,13 +1,10 @@
-.flex-container {
+.Text {
+  background-color: rgb(240, 238, 238);
+  text-align: justify; 
   font-size: 11px;
   margin-left: 10px;
   margin-right: 10px;
 }
-.colText {
-  background-color: rgb(240, 238, 238);
-  text-align: justify;  
-}
-
 @media only screen and (min-width: 602px) {
     .grid-template{
       display: grid;
@@ -26,7 +23,6 @@
   }
   .header {
     background-color: antiquewhite;
-    font-size: 12px;
     align-items: center;
     grid-column-start: 1;
     grid-column-end: 4;
