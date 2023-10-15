@@ -1,7 +1,5 @@
-.flex-container {
-  gap: 10px;
-}
 .Text {
+  gap: 10px;
   background-color: #f0eeee;
   text-align: justify; 
   font-size: 11px;
@@ -30,7 +28,7 @@
     gap: 10px;
   }
   .header {
-    background-color: #fd9c1c;
+    background-color: #8b5814;
     align-items: center;
     align-content: center;
     grid-column-start: 1;
