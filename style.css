@@ -13,7 +13,7 @@
 }
 
 .colText {
-  background-color: rgb(236, 234, 234);
+  background-color: rgb(240, 238, 238);
   text-align: justify;   
 }
 
@@ -21,10 +21,9 @@
   .grid-container {
     grid-template-columns: 1fr 2fr;
   }
-  #textgrup {
-    float: right;
+  .flex-container{
+    
   }
-
 }
 
     
