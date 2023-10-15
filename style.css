@@ -28,7 +28,7 @@
   }
 @media only screen and (min-width: 992px) {
   .grid-container {
-    display: flex;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 100px 100px 100px 100px;
     margin: 4rem;
@@ -38,7 +38,7 @@
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-end: 1;
   }
   .sidebar{
     background-color: blue;
