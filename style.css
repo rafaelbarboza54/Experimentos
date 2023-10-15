@@ -1,17 +1,9 @@
-.grid-container {
-  display: grid;
-  grid-template-columns : 1fr;
-}
-
 .flex-container {
-  display: grid;
-  flex-wrap: wrap;
   gap: 10px;
   font-size: small;
   margin-left: 10px;
   margin-right: 10px;
 }
-
 .colText {
   background-color: rgb(240, 238, 238);
   text-align: justify;  
@@ -19,6 +11,7 @@
 
 @media only screen and (min-width: 602px) {
     .grid-template{
+      display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: auto;
     }
@@ -31,14 +24,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 100px 100px 100px 100px;
-    margin: 4rem;
   }
   .header {
     background-color: aqua;
     grid-column-start: 1;
     grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 1;
   }
   .sidebar{
     background-color: blue;
