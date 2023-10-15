@@ -24,16 +24,20 @@
   .header {
     background-color: #fd9c1c;
     align-items: center;
+    align-content: center;
     grid-column-start: 1;
     grid-column-end: 4;
   }
   .sidebar {
     background-color: #24e7e7;
+    align-content: end;
     align-items: end;
     grid-row-start: 2;
     grid-row-end: 4;
   }
   .main{
+    display: flex;
+    flex-wrap: wrap;
     background-color: #379e9e;
     gap: 10px;
     grid-column-start: 2;
