@@ -22,19 +22,19 @@
     grid-template-rows: 150px 100px 100px 100px;
   }
   .header {
-    background-color: antiquewhite;
+    background-color: #fd9c1c;
     align-items: center;
     grid-column-start: 1;
     grid-column-end: 4;
   }
   .sidebar {
-    background-color: rgb(114, 209, 209);
+    background-color: #24e7e7;
     align-items: end;
     grid-row-start: 2;
     grid-row-end: 4;
   }
   .main{
-    background-color: azure;
+    background-color: #379e9e;
     gap: 10px;
     grid-column-start: 2;
     grid-column-end: 4;
